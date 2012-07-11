@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ラーニングアプリ内課金 by naokits</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>ラーニングアプリ内課金</h1>
+        <p>アップルのアプリ内課金についてしっかりと学べる情報です。</p>
+
+        <p class="view"><a href="https://github.com/naokits/Learning-In-App-Purchase">View the Project on GitHub <small>naokits/Learning-In-App-Purchase</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/naokits/Learning-In-App-Purchase/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/naokits/Learning-In-App-Purchase/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/naokits/Learning-In-App-Purchase">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Ggoogle Sitesで運用中の「<a href="https://sites.google.com/site/learningiap/">ラーニングアプリ内課金</a>」サイトをGitHub Pagesに移行準備中です。</p>
+
+<h1>はじめに</h1>
+
+<p>当サイトは、個人出版の電子書籍「ラーニングアプリ内課金」シリーズのサポートサイトです。</p>
+
+<p>iOS3で導入されたアプリ内課金により、それまでアプリケーションの売り切りや広告で収益をあげるしかありませんでしたが、現在ではさまざな販売方法が用意され、iOSアプリケーションは収益をあげるための重要なプラットフォームに成長しました。</p>
+
+<p>そんな重要なアプリ内課金ですが、実際にご自身のアプリケーションに適用しようとするとさまざま障壁にぶつかります。主な理由として次のような理由が挙げられると思います。</p>
+
+<ol>
+<li>審査ガイドラインが英語で内容がわりと頻繁に変更される</li>
+<li>アップルとの契約内容が英語でアップルがサービスを更新するたびに変更される</li>
+<li>各種登録画面が全て英語で、内容や構成が変更される頻度が高い</li>
+<li>アップルの公式ドキュメントは整理されておらず非常にわかりにくい。</li>
+</ol><p>4については深刻で、このドキュメントを読んだだけで理解できる人は皆無だと思われます。また提供されているドキュメントは殆どの場合古いことが多く、実際と異なることがあるので、なおさら混乱します。</p>
+
+<p> <strong>断言します！もうアプリ内課金のアップルのドキュメント（In App Purchase プログラミングガイド）を読む必要はありません！</strong> </p>
+
+<p>この「ラーニングアプリ内課金」シリーズはステップアップで理解度を深めていくアプローチをとり、一度にいろいろな内容を詰め込まないよう配慮しています。
+また筆者が実際にアプリ内課金に対応したアプリケーション開発の中で手探りで得てきた情報やテクニックを紹介し、読者が筆者と同じ苦労をしないようにしたいと思っています。</p>
+
+<p>本シリーズは電子書籍という形態の個人出版物ですので、その利点を生かして必要な改訂を順次行なって行く予定です。筆者の気付かなかった記述ミスはもちろん、ご意見やご指摘などありましたら是非、ご連絡ください。</p>
+
+<p>最後に、通常のブログで公開されている個人的な情報とは違い内容に責任を持ちます。これが最も重要な点です。（ただし、アップルがサービスや情報を更新した後の１ヶ月の猶予はください。筆者が気づいていない可能性もあるので。）</p>
+
+<h1>必ずお読みください</h1>
+
+<ul>
+<li>コンテンツはEPUBまたはibooks、PDF形式で提供します。Volによっては実際に動作するサンプルコードも付属します。現在のところダウン*ロードするには電子メールをご連絡いただくことが必要です。将来はfacebookアカウントでもご利用いただけるよう検討中です。</li>
+<li>提供する情報の性質上、随時内容をアップデートしていきますが、改訂作業のコストによっては、改訂版の提供を有償とさせていただくことがあります。どうぞご理解下さい。</li>
+<li>常に最新版のみ提供していきますが、過去にご購入いただいている場合、アップデート料金のみでご購入いただけます。（最新版の販売金額の50%OFF）</li>
+<li>他に類を見ない点として、本書の通りにアプリ内課金対応アプリケーションを実装したにも関わらず、リジェクトされた場合には料金をお返しすると共に問題解決のお手伝いをします。（ただし、問題となったXcodeプロジェクトをご提示願います。もちろん、守秘義務契約を締結させていただきます）</li>
+</ul><h1>提供予定のコンテンツ一覧と簡単な説明</h1>
+
+<ul>
+<li>ラーニングアプリ内課金Vol.1 ver1.0
+入門編。Vol.2以降で必須となる基本的な知識をつけます。
+アプリ内課金に興味のある全ての方を対象にしていますが、Vol.1は非エンジニアの方にも読んでいただきたい内容です。
+提供済み（現在Ver1.0.2）
+プログラムには一切ふれないので、サンプルコードは付属しません。</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/naokits">naokits</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
