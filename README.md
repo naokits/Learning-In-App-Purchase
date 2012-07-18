@@ -157,26 +157,24 @@ In-App Purchaseに関する用語集を提供開始。（iBooksにおいては�
 
 サンプルアプリケーションのコンパイルおよび動作確認には次の環境が必要です。
 
-```
-iOSアプリケーション
-Mac OSX 10.7.3以上
-Xcode 4.3.2以上
-対象OS: iOS 5.1以上
-ARC：有効
-サーバアプリケーション
-Ruby 1.9.2
-Rails 3.2.x
- 筆者はheroku.comの無料アカウントにて動作テストを行なっています。
-```
+### iOSアプリケーション
+* Mac OSX 10.7.3以上
+* Xcode 4.3.2以上
+* 対象OS: iOS 5.1以上
+* ARC：有効
 
-動作可能な機種
-```
-iOS5.1がインストールされた次の機種、
-iPhone3GS、iPhone4、iPhone4S
-iPod Touch 4G
-iPad、iPad（2G）
-サンプルアプリはユニバーサル対応ではなく、iPhone用としてビルドしています。
-```
+### サーバアプリケーション
+* Ruby 1.9.2
+* Rails 3.2.x
+（筆者はheroku.comの無料アカウントにて動作テストを行なっています。）
+
+### 動作可能な機種
+iOS5.1がインストールされた次の機種
+* iPhone3GS、iPhone4、iPhone4S
+* iPod Touch 4G
+* iPad、iPad（2G）
+
+なお、サンプルアプリはユニバーサル対応ではなく、iPhone用としてビルドしています。
 
 ## ご購入方法
 
